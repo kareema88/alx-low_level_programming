@@ -15,9 +15,9 @@ int main(void)
 	int p;
 
 	srand(time(NULL));
-	for (d = 0, p = 3000; p > 100; d++)
+	for (d = 0, p = 2772; p > 122; d++)
 	{
-		krand = (rand() % 119) + 1;
+		krand = (rand() % 125) + 1;
 		printf("%c", krand);
 		p -= krand;
 	}
