@@ -4,7 +4,7 @@
  * *_strpbrk - searche a string for any of a set of bytes
  * @s: 1st string
  * @accept: 2nd string
- * Rturn: s ot NULL
+ * Return: s ot NULL
  */
 char *_strpbrk(char *s, char *accept)
 {
