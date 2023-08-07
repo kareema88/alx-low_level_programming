@@ -16,9 +16,10 @@ char *argstostr(int ac, char **av)
 		return (NULL);
 	for (k = 0; k < ac; k++)
 	{
-		d = 0;
-		while (av[k][d++])
+		for (d = 0; av[k][d]; d++)
+		{
 			len++;
+		}
 	}
 		len++;
 	str = malloc(sizeof(char) * len + 1);
