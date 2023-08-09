@@ -8,11 +8,9 @@
  */
 int help(char *st)
 {
-	int k;
-	int d = 0;
+	int k, d = 0;
 
 	for (k = 0; st[k]; k++)
-
 	{
 		if (st[k] == ' ')
 		{
@@ -25,7 +23,6 @@ int help(char *st)
 	d++;
 	return (d);
 }
-
 /**
  * strtow - function that splits a string into words
  * @str: string
@@ -33,9 +30,7 @@ int help(char *st)
  */
 char **strtow(char *str)
 {
-	int k, c, b, m;
-	int d = 0;
-	int p = 0;
+	int k, c, b, m, d = 0, p = 0;
 	char **ptr;
 
 	if (str == NULL || *str == '\0')
