@@ -17,7 +17,6 @@ int positive(char *s)
 	}
 	return (1);
 }
-
 /**
  * _strlen - return the length of a string
  * @s: string
@@ -32,12 +31,8 @@ int _strlen(char *s)
 		lentgh++;
 	}
 
-
 		return (lentgh);
-
 }
-
-
 /**
  * fault - print errors for not numbers
  */
@@ -46,7 +41,6 @@ void fault(void)
 	printf("Error\n");
 	exit(98);
 }
-
 /**
  * main - program that multiplies two positive numbers
  * @ac: arguments c
@@ -56,8 +50,7 @@ void fault(void)
 int main(int ac, char *av[])
 {
 	char *st1, *st2;
-	int len1, len2, len, k, rest, digit1, digit2, *prod;
-	int y = 0;
+	int len1, len2, len, k, rest, digit1, digit2, *prod, y = 0;
 
 	st1 = av[1], st2 = av[2];
 	if (ac != 3 || !positive(st1) || !positive(st2))
