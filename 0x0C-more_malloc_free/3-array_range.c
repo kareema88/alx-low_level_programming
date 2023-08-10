@@ -8,7 +8,7 @@
  * Return: pointer, NULL if min > max or malloc fails
  */
 int *array_range(int min, int max)
-{	
+{
 	int len = max - min + 1;
 	int *arr = malloc(sizeof(int) * len);
 	int k;
