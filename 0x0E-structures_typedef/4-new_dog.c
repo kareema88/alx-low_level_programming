@@ -5,7 +5,7 @@
  * @name: new dog's name
  * @age: new dog's age
  * @owner: new dog's owner
- * @Return: 0 or pointer to n_dog
+ * Return: 0 or pointer to n_dog
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
